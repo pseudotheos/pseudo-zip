@@ -6,6 +6,16 @@
     <meta name="twitter:site" content="@pseudotheos">
     <meta name="twitter:title" content="pseudotheos.xyz">
     <meta name="twitter:image" content="https://i.imgur.com/eC3CxaT.png">
+    <script>
+       function playItHere(e, link) {
+          var audio = document.createElement("audio");
+          var src = document.createElement("source");
+          src.src = link.href;
+          audio.appendChild(src);
+          audio.play();
+          e.preventDefault();
+ }
+    </script>
 </head>
 <body style="background-color: black; color:white">
 <body class="container">
@@ -91,7 +101,7 @@
   ▓ █▓ ▓▓      ▀                                              ▀      ▓▓ ▓█ ▓
   ▒ █▓▓▓▌                   nfo design: CODEPUNKS                    ▐▓▓▓█ ▒
   ░ ▐▓▓█                    crafted with <3 by me                     █▓▓▌ ░
-  ░  █▓▓▌                                                            ▐▓▓█  ░
+  ░  █▓▓▌                      <a href="files/unrealsuperhero3.ogg" onclick="playItHere(event, this)">immersion mode</a>                       ▐▓▓█  ░
   ░░  █▓▓                                                            ▓▓█  ░░
   ▄▄▄  ▀▓▓▄     ▄▄▀                                        ▀▄▄     ▄▓▓▀  ▄▄▄
  ▀  ▓▓▓▄  ▀▀▀▀▀▀                                              ▀▀▀▀▀▀   ▄▓▓  ▀
