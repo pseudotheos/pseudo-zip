@@ -1,0 +1,39 @@
+
+@font-face {
+    font-family: 'fixedsys';
+    src: url('fonts/../../fonts/fsex300-webfont.eot');
+    src: url('../fonts/fsex300-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/fsex300-webfont.woff') format('woff'),
+    url('../fonts/fsex300-webfont.ttf') format('truetype'),
+    url('../fonts/fsex300-webfont.svg#fixedsys') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    -webkit-font-smoothing: none;
+    -moz-osx-font-smoothing: none;
+    font-smooth: never;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    color: #000000;
+}
+
+body > div {
+    margin: 16px 8px !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #525252;
+    margin-bottom: 16px;
+}
+
+* {
+    font-family: 'fixedsys' !important;
+    font-size: 16px !important;
+    font-weight: normal !important;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
