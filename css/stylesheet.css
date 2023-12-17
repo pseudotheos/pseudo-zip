@@ -3,29 +3,14 @@
     font-display: swap;
     src: url("../fonts/vga8hack.woff2") format("woff2")
 }
-.center {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
+  .container {
+    text-align: center;
   }
-
-.parent {
-  display: inline-flex;
-  justify-content: center;
-div {
-    display:flex;
-    justify-content: center;
-    width: 100%;
-}
-pre
-{
-  font-family: font-vga-eight;
-  margin-bottom: 10px;
-  padding: 10px;
-  width: 80%;
-  padding-bottom: 20px!ie7;
-}
-
+pre {
+    font-family: font-vga-eight;
+    display: inline-block;
+    text-align: left;
+   }
 a, a:link {
     color: #61D6D6;
 }
